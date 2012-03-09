@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: yourlocalwebmaster)
+Contributors: yourlocalwebmaster, Grant Kimball
 Donate link: http://yourlocalwebmaster.com/donate
 Tags: vimeo, video, shortcode, vimeo shortcode, simple video plugin
 Requires at least: 2.0.2
@@ -14,11 +14,11 @@ A very simple shortcode to add your Vimeo videos into your WordPress website! Th
 
 == Installation ==
 
-e.g.
+1. To install very simple wordpress plugin, simply download it and upload it view the Plugins menu.
+Or, Install it via the "search" feature on the plugin page. "Simple Vimeo Shortcode"
 
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+2. Activate the plugin through the 'Plugins' menu in WordPress
+
 
 == Frequently Asked Questions ==
 
