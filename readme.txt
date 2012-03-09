@@ -34,7 +34,7 @@ I am constantly updating my plugins. Looks for more attributes very soon!
 
 When setting height and width attributes, they should maintain the same aspect ration of the original video..
 
-i.e. height="250" width="400", or 1 : 1.25
+i.e. height="250" width="400", or 1 : 1.6
 
 == Screenshots ==
 
@@ -46,7 +46,7 @@ Added height and width attributes
 
 == Upgrade Notice ==
 
-== Arbitrary section ==
+== Usage Notes ==
 
 **To use the plugin, simply install it, activate it and then call the shortcode within your page or post content.**
 
