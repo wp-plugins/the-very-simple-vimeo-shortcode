@@ -12,6 +12,21 @@ A very simple shortcode to add your Vimeo videos into your WordPress website!
 
 A very simple shortcode to add your Vimeo videos into your WordPress website! This plugin will enable you to use shortcodes to insert your videos from Vimeo. It also allows height and width attributes for further customization!
 
+
+
+**How to Use**
+
+To use this plugin, simply install, activate and then call the shortcode from within your page or post content.
+
+*[ylwm_vimeo]VIDEO_ID[/ylwm_vimeo]*
+
+Where VIDEO_ID is the id of the vimeo video
+
+To utilize the attributes, add height and width to the shortcode.
+
+*[ylwm_vimeo height="400" width="600"]VIDEO_ID[/ylwm_vimeo]
+
+
 == Installation ==
 
 1. To install very simple wordpress plugin, simply download it and upload it view the Plugins menu.
