@@ -59,6 +59,9 @@ i.e. height="250" width="400", or 1 : 1.6
 = 1.0 =
 Added height and width attributes
 
+= 1.5 =
+Added class attributes
+
 == Upgrade Notice ==
 
 == Usage Notes ==
