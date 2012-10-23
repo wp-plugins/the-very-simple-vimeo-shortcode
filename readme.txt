@@ -10,7 +10,7 @@ A very simple shortcode to add your Vimeo videos into your WordPress website!
 
 == Description ==
 
-A simple shortcode to add your Vimeo videos into your website! This plugin will enable you to use shortcodes to insert your videos from Vimeo. It also allows height, width and class attributes for further customization! Websites are always affordable from <a href="http://www.YourLocalWebmaster.com">Your Local Webmaster</a>
+A simple shortcode to add your Vimeo videos into your website! This plugin will enable you to use shortcodes to insert your videos from Vimeo. It also allows height, width and class attributes for further customization! Websites are always affordable from YourLocalWebmaster.com
 
 == Installation ==
 
