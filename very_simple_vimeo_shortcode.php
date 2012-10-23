@@ -42,8 +42,13 @@ $width = "400";
 else{
 $height = "225";
 }
-
-            $list = '<iframe src="http://player.vimeo.com/video/'.$content.'" width="'.$width.'" height="'.$height.'" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
+if($atts['class']){
+$class=$atts['class'];
+}
+else{
+$class="";
+}
+            $list = '<iframe src="http://player.vimeo.com/video/'.$content.'" width="'.$width.'" height="'.$height.'" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen class="'.$class.'"></iframe>';
            return $list;
 }
 
