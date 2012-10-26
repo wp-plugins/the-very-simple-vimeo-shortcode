@@ -14,7 +14,7 @@ A simple shortcode to add your Vimeo videos into your website! This plugin will 
 
 == Installation ==
 
-1. To install very simple wordpress plugin, simply download it and upload it view the Plugins menu.
+1. To install very simple wordpress plugin, simply download it and upload it to the Plugins menu.
 Or, Install it via the "search" feature on the plugin page. "Simple Vimeo Shortcode"
 
 2. Activate the plugin through the 'Plugins' menu in WordPress
