@@ -30,19 +30,19 @@ License: GPL2
 
 
 function your_local_webmaster_vimeo_handler( $atts, $content=null, $code="" ) {
-		if($atts['width']){
+		if(isset($atts['width'])){
 		$width = $atts['width'];
 		}
 else{
 $width = "400";
 }
-		if($atts['height']){
+		if(isset($atts['height'])){
 		$height = $atts['height'];
 		}
 else{
 $height = "225";
 }
-if($atts['class']){
+if(isset($atts['class'])){
 $class=$atts['class'];
 }
 else{
