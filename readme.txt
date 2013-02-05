@@ -3,8 +3,8 @@ Contributors: yourlocalwebmaster, Grant Kimball
 Donate link: http://yourlocalwebmaster.com/donate
 Tags: vimeo, video, shortcode, vimeo shortcode, simple video plugin
 Requires at least: 2.0.2
-Tested up to: 3.4.2
-Stable tag: 3.4.2 trunk
+Tested up to: 3.5.1
+Stable tag: 3.5.1 trunk
 
 A very simple shortcode to add your Vimeo videos into your WordPress website!
 
@@ -28,7 +28,13 @@ Perhaps you are not aware, but the attributes "height" and "width" are case sens
 
 = Are there any other available attributes? =
 
-I am constantly updating my plugins. Looks for more attributes very soon!
+The Current Available Attributes are:
+
+-height (sets height of video)
+-width (sets width of video)
+-class (adds a custom css class to your video)
+-portrait (when false(default), removes the image from the top left of video)
+-byline (when false(default), removes "From #####"  in the title
 
 = Why does my video look disproportioned? =
 
@@ -47,6 +53,9 @@ Added height and width attributes
 = 1.5 =
 Added class attributes
 
+= 2.0 =
+Added "portrait" and "byline" attributes. (Inspired by Tim Golden <http://www.timgolden.com>)
+
 == Upgrade Notice ==
 
 == Usage Notes ==
@@ -57,6 +66,6 @@ Added class attributes
 
 Where  VIDEO_ID is the id of the vimeo video.
 
-To utilize the attributes, add height, with and/or class to the shortcode.
+To utilize the attributes, add height, width, byline, portrait and/or class to the shortcode.
 
-*[ylwm_vimeo height="400" width="600" class="MYCUSTOMCLASS"]VIDEO_ID[/ylwm_vimeo]*
+*[ylwm_vimeo height="400" width="600" class="MYCUSTOMCLASS" portrait="false" byline="false"]VIDEO_ID[/ylwm_vimeo]*
