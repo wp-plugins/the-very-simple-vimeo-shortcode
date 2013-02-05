@@ -3,7 +3,7 @@
 Plugin Name: Simple Vimeo Shortcode
 Plugin URI: http://www.yourlocalwebmaster.com/plugins/very-simple-vimeo-shortcode-plugin
 Description: A simple shortcode to add your vimeo videos into site! Website are affordable from <a href="http://www.yourlocalwebmaster.com">www.YourLocalWebmaster.com</a>
-Version: 1.5
+Version: 2.0
 Author: Grant Kimball
 Author URI: http://www.YourLocalWebmaster.com/
 License: GPL2
@@ -30,6 +30,20 @@ License: GPL2
 
 
 function your_local_webmaster_vimeo_handler( $atts, $content=null, $code="" ) {
+if(isset($atts['byline'])){
+$byline = $atts['byline'];
+}
+else{
+$byline = 0;
+}
+
+if(isset($atts['portrait'])){
+$portrait = $atts['portrait'];
+}
+else{
+$portrait = 0;
+}
+
 		if(isset($atts['width'])){
 		$width = $atts['width'];
 		}
@@ -48,9 +62,8 @@ $class=$atts['class'];
 else{
 $class="";
 }
-            $list = '<iframe src="http://player.vimeo.com/video/'.$content.'" width="'.$width.'" height="'.$height.'" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen class="'.$class.'"></iframe>';
+            $list = '<iframe src="http://player.vimeo.com/video/'.$content.'?byline='.$byline.'&portrait='.$portrait.'" width="'.$width.'" height="'.$height.'" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen class="'.$class.'"></iframe>';
            return $list;
 }
 
 add_shortcode( 'ylwm_vimeo', 'your_local_webmaster_vimeo_handler' );
-
