@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: yourlocalwebmaster, Grant Kimball
+Contributors: yourlocalwebmaster
 Donate link: http://yourlocalwebmaster.com/donate
 Tags: vimeo, video, shortcode, vimeo shortcode, simple video plugin
 Requires at least: 2.0.2
