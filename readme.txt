@@ -35,12 +35,19 @@ The Current Available Attributes are:
 -class (adds a custom css class to your video)
 -portrait (when false(default), removes the image from the top left of video)
 -byline (when false(default), removes "From #####"  in the title
+-autoplay (when true, plays the video automatically) (default: false)
 
 = Why does my video look disproportioned? =
 
 When setting height and width attributes, they should maintain the same aspect ration of the original video..
 
 i.e. height="250" width="400", or 1 : 1.6
+
+= How do I enable AutoPlay? =
+
+Autoplay was added in version 2.5. Make sure your current plugin version is > or = 2.5.  IF it is, simply add the attribute "autoplay=true" to the shortcode.
+
+i.e. [ylwm_vimeo autoplay="true"]1234567[/ylwm_vimeo]
 
 == Screenshots ==
 
@@ -69,3 +76,9 @@ Where  VIDEO_ID is the id of the vimeo video.
 To utilize the attributes, add height, width, byline, portrait and/or class to the shortcode.
 
 *[ylwm_vimeo height="400" width="600" class="MYCUSTOMCLASS" portrait="false" byline="false"]VIDEO_ID[/ylwm_vimeo]*
+
+*Auto Play*
+
+Where  VIDEO_ID is the id of the vimeo video.
+
+[ylwm_vimeo autoplay="true"]VIDEO_ID[/ylwm_vimeo]
