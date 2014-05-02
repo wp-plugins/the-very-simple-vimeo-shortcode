@@ -3,8 +3,8 @@ Contributors: yourlocalwebmaster
 Donate link: http://yourlocalwebmaster.com/donate
 Tags: vimeo, video, shortcode, vimeo shortcode, simple video plugin
 Requires at least: 2.0.2
-Tested up to: 3.5.1
-Stable tag: 3.5.1 trunk
+Tested up to: 3.9
+Stable tag: 3.9 trunk
 
 A very simple shortcode to add your Vimeo videos into your WordPress website!
 
@@ -62,6 +62,9 @@ Added class attributes
 
 = 2.0 =
 Added "portrait" and "byline" attributes. (Inspired by Tim Golden <http://www.timgolden.com>)
+
+= 2.9 =
+Added "title" option.  Remove the title of the video by adding the attribute  "title=0" to the shortcode.
 
 == Upgrade Notice ==
 
